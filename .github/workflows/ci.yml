@@ -2,7 +2,7 @@ name: ci
 on:
   push:
     branches:
-      - mkdocs
+      - main
 permissions:
   contents: write
 jobs:
@@ -17,9 +17,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-      - run: pip install "mkdocs-material[imaging]"
+      - run: pip install mkdocs-material
       - run: mkdocs build
-      - run: mkdocs gh-deploy --force --remote-branch main
-env:
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - run: mkdocs gh-deploy --force
