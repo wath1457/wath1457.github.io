@@ -6,6 +6,7 @@ theme:
 
 plugins:
   - blog:
+      enabled: true
       blog_dir: blog
 
 markdown_extensions:
