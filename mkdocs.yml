@@ -1,5 +1,5 @@
 site_name: My Blog-wath1457-test2
-site_dir: "./"
+site_dir: "site"
 
 theme:
   name: material
