@@ -6,7 +6,7 @@ theme:
 
 plugins:
   - blog:
-      blog_dir: .
+      blog_dir: blog
 
 markdown_extensions:
   # code block
