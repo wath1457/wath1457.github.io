@@ -16,7 +16,7 @@ jobs:
           git config user.email wath1457@gmail.com
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.9
+          python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v4
         with:
@@ -25,6 +25,4 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
-      - run: ls -al
       - run: mkdocs gh-deploy --force --remote-branch main
-      - run: ls -al
