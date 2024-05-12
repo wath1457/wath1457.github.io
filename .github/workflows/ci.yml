@@ -20,7 +20,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: mkdocs build
       - run: mkdocs gh-deploy -c -v -s --force
-      
+
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
@@ -31,5 +31,4 @@ jobs:
           # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
