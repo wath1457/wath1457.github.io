@@ -1,4 +1,5 @@
 site_name: My Blog-wath1457-test
+site_url: https://wath1457.github.io
 theme:
   name: material
   features:
