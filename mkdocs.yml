@@ -1,4 +1,5 @@
 site_name: My Blog-wath1457-test2
+site_dir: /
 
 theme:
   name: material
