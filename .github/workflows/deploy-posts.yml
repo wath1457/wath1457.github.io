@@ -18,4 +18,5 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
+      - run: mkdocs build
       - run: mkdocs gh-deploy --force --remote-branch main
