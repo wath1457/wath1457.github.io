@@ -12,13 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config user.name wath1457
+          git config user.email wath1457@gmail.com
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: ls -al
-      - run: mkdir site
+      - run: mkdocs build
       - run: mkdocs gh-deploy --force -s -v
       - run: ls -al
