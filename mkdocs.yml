@@ -9,12 +9,14 @@ theme:
 
 plugins:
   - blog:
-      blog_dir: blog/
-      post_dir: "{blog}/posts"
-      archive: true
       enabled: true
+      draft: true
+      archive: true
+      authors: true
+      blog_dir: .
+      authors_file: "./.authors.yml"
       
-
+      
 markdown_extensions:
   # code block
   - pymdownx.highlight:
@@ -35,8 +37,3 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
-nav:
-  - Home: index.md
-  - Blog: 
-    - blog/index.md
