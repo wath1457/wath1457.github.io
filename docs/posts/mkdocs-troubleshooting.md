@@ -1,11 +1,11 @@
 ---
 draft: true
-date: 2024-05-12
+date: 2024-05-15
 authors:
   - wath1457
 categories:
-  - Kubernetes
-  - DevOps
+  - CI/CD
+  - troubleshooting
 ---
 
 # mkdocs-material troubleshooting
@@ -25,6 +25,8 @@ gitlab Pages는 회사에서 사용중이고 github actions는 거의 사용을 
     - pages를 branch 배포가 아니라, github actions를 이용하면 좀 더 어렵겠지만 많은 공부가 될 것 같다.
 3. 정적 사이트를 렌더링 하는 과정에서 다양한 지식 습득 가능..
     - mkdocs의 경우에는 마크다운 문법... 및 도커(도커 이미지로도 mkdocs-material을 제공해준다)
+4. (중요!) github 잔디 심기
+    - 아 이건 너무 보여주기식인데ㅋㅋ 잔디심는거 좋아하시는 분들은 블로그 포스팅만으로 깃헙에 잔디 심기가 가능하다~~ (~~개꿀이다~~)
 
 <hr>
 <br><br>
