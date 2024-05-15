@@ -9,6 +9,7 @@ theme:
 plugins:
   - blog:
       blog_dir: blog/
+      post_dir: "{blog}/posts"
       enabled: true
       
 
