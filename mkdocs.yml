@@ -5,7 +5,8 @@ site_url: https://wath1457.github.io/
 theme:
   name: material
   features:
-    - navigation.indexes
+    - content.code.copy
+    - pymdownx.inlinehilite
 
 plugins:
   - blog:
@@ -26,6 +27,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
 
   # emoji
   - attr_list
