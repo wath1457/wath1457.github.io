@@ -1,5 +1,6 @@
 site_name: My Blog-wath1457-test2
 site_dir: "site"
+site_url: https://wath1457.github.io/
 
 theme:
   name: material
@@ -10,6 +11,7 @@ plugins:
   - blog:
       blog_dir: blog/
       post_dir: "{blog}/posts"
+      archive: true
       enabled: true
       
 
