@@ -16,6 +16,7 @@ on:
       - 'docs/**'
       - 'requirements.txt'
       - 'mkdocs.yml'
+      - /.github/workflows/
 
 # These permissions are required for it to work
 permissions:
