@@ -16,10 +16,11 @@ mkdocs-material with github pages
 수많은 디버깅 끝에 배포 완료..
 gitlab Pages는 회사에서 사용중이고 github actions는 거의 사용을 안해봐서 공부도 할겸 github actions를 이용한 pages를 선택했다.
 
+
 <br><br>
 이런식으로 블로그를 운영하면 얻을 수 있는 장점은
 <br>
-
+<!-- more -->
 1. 내 입맛대로 블로그 커스터마이징 가능
 2. 기본적인 git flow와 workflow(CI) 경험 가능 (요건 github actions를 이용하는 경우)
     - pages를 branch 배포가 아니라, github actions를 이용하면 좀 더 어렵겠지만 많은 공부가 될 것 같다.

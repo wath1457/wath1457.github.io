@@ -17,7 +17,6 @@ plugins:
       blog_dir: .
       authors_file: "./.authors.yml"
       
-      
 markdown_extensions:
   # code block
   - pymdownx.highlight:
