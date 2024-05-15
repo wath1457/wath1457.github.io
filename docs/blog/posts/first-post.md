@@ -1,5 +1,4 @@
 ---
-draft: true 
 date: 2024-05-12
 categories:
   - Kubernetes
