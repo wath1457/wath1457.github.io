@@ -6,6 +6,7 @@ authors:
 categories:
   - CI/CD
   - troubleshooting
+comments: true
 ---
 
 # mkdocs-material troubleshooting
